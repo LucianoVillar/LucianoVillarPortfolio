@@ -141,6 +141,60 @@ footer a:hover {
     border-radius: 8px;
 }
 /* Fin estilos sección certificados */
+/* Inicio estilos streched links  */
+.row.g-0 {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 50%;
+    border-radius: 10px;
+    border: 1px solid white;
+    
+}
+
+.row.g-0 .col-md-6 {
+    padding: 20px;
+    
+}
+
+.row.g-0 .col-md-6 img {
+    width: 100%;
+    max-width: 500px; /* Ajusta el tamaño máximo según tus preferencias */
+    border-radius: 8px;
+}
+
+.row.g-0 h5 {
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.row.g-0 p {
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+.row.g-0 a.stretched-link {
+    color: goldenrod;
+}
+
+a.stretched-link {
+    display: inline-block;
+    padding: 10px 20px; 
+    background-color: grey; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease; 
+}
+
+a.stretched-link:hover {
+    background-color: black; 
+}
+
+/* Fin estilos streched links  */
 /* Inicio estilos quiensoy.html */
 .container {
     max-width: 800px;
