@@ -614,6 +614,10 @@ ul {
       #certificados .img-index {
         border: 2px solid black;
       }
+
+      .row.g-0 p {
+        display: none; 
+    }
       /* Fin estilos media index.html*/
 
       /* Inicio estilos media quiensoy.html */
