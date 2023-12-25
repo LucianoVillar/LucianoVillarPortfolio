@@ -70,7 +70,10 @@ footer {
     align-items: center;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
     height: 70px;
-    
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 footer a {
