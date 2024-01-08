@@ -1,0 +1,41 @@
+/* Inicio estilos Header */
+.navbar {
+    background-color: $colorPrimario;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    top: 0;
+    height: 70px;
+    width: 100%;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+
+    li {
+        margin: 0;
+    }
+
+    a {
+        color: white;
+        font-family: 'Barlow', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    }
+
+    .active {
+        font-weight: bold;
+        color: $colorSecundario;
+    }
+}
+/* Fin estilos Header */

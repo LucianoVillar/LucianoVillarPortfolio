@@ -1,0 +1,107 @@
+/* Inicio estilos index.html */
+#index-content {
+    text-align: center;
+    padding: 20px;
+    color: white;
+
+    h1 {
+        font-family: 'Barlow', sans-serif;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-family: 'Dosis', sans-serif;
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: $colorPrimario;
+    }
+
+    p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+}
+
+/* Estilos para la sección de Certificados */
+#certificados {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.curso-certificado {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+.title-curso {
+            font-family: 'Barlow', sans-serif;
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: $colorPrimario;
+        }
+
+.img-index {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+        }
+    
+
+/* Fin estilos sección certificados */
+
+/* Inicio estilos streched links  */
+.row.g-0 {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 50%;
+    border-radius: 10px;
+    border: 1px solid white;
+
+    .col-md-6 {
+        padding: 20px;
+
+        img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 8px;
+        }
+
+        h5 {
+            color: $colorSecundario;
+            font-family: 'Barlow', sans-serif;
+            font-size: 30px;
+            margin-top: 0;
+        }
+
+        p {
+            color: $colorSecundario;
+            font-family: 'Barlow', sans-serif;
+            font-size: 19px;
+            line-height: 1.5;
+        }
+
+        a.stretched-link {
+            color: $colorPrimario;
+        }
+    }
+}
+
+a.stretched-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: grey;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: $colorSecundario;
+    }
+}
+/* Fin estilos streched links  */

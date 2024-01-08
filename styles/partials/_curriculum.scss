@@ -1,0 +1,86 @@
+/* Inicio estilos curriculum.html */
+
+#curriculum {
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    img {
+        width: 100%;
+        max-width: 400px;
+        border-radius: 12px;
+        border: 4px solid $colorPrimario;
+    }
+
+}
+    .section-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .title-cv {
+        text-align: center;
+        padding: 20px;
+        color: white;
+
+        h2 {
+            font-family: 'Barlow', sans-serif;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-family: 'Dosis', sans-serif;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+    }
+
+    /* Inicio estilo para Experiencia Laboral y Formación Académica */
+    #historiaLaboral, #estudios {
+        flex: 1;
+        margin-bottom: 30px;
+        border: 4px solid $colorPrimario;
+        border-radius: 12px;
+        padding: 20px;
+        margin: 3px;
+    }
+        h3 {
+            font-family: 'Barlow', sans-serif;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .experienciaCv, .formacionCv {
+            margin-bottom: 20px;
+        }
+
+        .fechaCv {
+            color: $colorPrimario;
+        }
+
+        .puestoCv {
+            font-family: 'Dosis', sans-serif;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .descriptionCv {
+            font-family: 'Barlow', sans-serif;
+            margin-bottom: 8px;
+        }
+
+        .academia {
+            color: $colorPrimario;
+            margin-bottom: 8px;
+        }
+
+    /* Fin estilo para Experiencia Laboral y Formación Académica */
+
+
+/* Fin estilos curriculum.html */

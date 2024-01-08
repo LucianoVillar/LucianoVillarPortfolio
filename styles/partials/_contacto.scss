@@ -1,0 +1,148 @@
+/* Inicio estilo contacto.html */
+/*Inicio estilo formulario*/
+/* Estilo formulario */
+
+.container-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    form {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #333;
+        padding: 20px;
+        border-radius: 8px;
+    }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            color: $colorPrimario;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid $colorPrimario;
+            border-radius: 4px;
+            background-color: #444;
+            color: white;
+            font-family: 'Dosis', sans-serif;
+        }
+
+        button {
+            background-color: $colorPrimario;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.2);
+            }
+        }
+
+        .row {
+            margin-bottom: 16px;
+        }
+
+        .col-12 {
+            text-align: center;
+        }
+
+        .mb-3 {
+            margin-bottom: 16px;
+        }
+
+        #exampleFormControlTextarea1 {
+            color: $colorSecundario;
+        }
+   
+
+/* Fin estilo formulario */
+
+#section-contact {
+    text-align: center;
+    padding: 40px 0;
+    background-color: $colorSecundario;
+    color: white;
+
+    p {
+        font-family: 'Barlow', sans-serif;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+}
+    .subtitle-contact {
+        font-family: 'Dosis', sans-serif;
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .medios-contact {
+        margin-bottom: 20px;
+
+        h3 {
+            font-family: 'Barlow', sans-serif;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            font-family: 'Dosis', sans-serif;
+            font-size: 18px;
+            color: $colorPrimario;
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+
+            &:hover {
+                color: white;
+                background-color: rgba(255, 255, 255, 0.2);
+                padding: 5px;
+                border-radius: 5px;
+            }
+
+            &:focus {
+                outline: 2px solid white;
+            }
+        }
+    }
+
+    .medios-contact__title {
+        font-family: 'Barlow', sans-serif;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .medios-contact__link {
+        font-family: 'Dosis', sans-serif;
+        font-size: 18px;
+        color: $colorPrimario;
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+            color: white;
+            background-color: $colorPrimario;
+        }
+
+        &:focus {
+            outline: 2px solid white;
+        }
+    }
+
+/* Fin estilo contacto.html*/
