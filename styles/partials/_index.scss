@@ -105,3 +105,31 @@ a.stretched-link {
     }
 }
 /* Fin estilos streched links  */
+@media screen and (max-width: 768px) {
+    /* Inicio estilos media index.html*/
+    #certificados {
+      flex-direction: column;
+      align-items: center;
+    }
+      .curso-certificado {
+        margin-bottom: 30px;
+      }
+
+      #index-content p {
+          display: none;
+      }
+
+      .title-curso {
+        color: white;
+      }
+
+      .img-index {
+        border: 2px solid $colorSecundario;
+      }
+
+      .row.g-0 p {
+        display: none; 
+      }
+    
+    /* Fin estilos media index.html*/
+}

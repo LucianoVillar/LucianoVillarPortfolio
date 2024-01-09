@@ -146,3 +146,53 @@
     }
 
 /* Fin estilo contacto.html*/
+
+@media screen and (max-width: 768px) {
+    /* Inicio estilos media para contacto.html */
+    .subtitle-contact {
+        font-size: 28px; 
+    }
+
+    #section-contact p {
+        font-size: 16px; 
+    }
+
+    .medios-contact h3,
+    .medios-contact__title {
+        font-size: 20px;
+    }
+
+    .medios-contact a,
+    .medios-contact__link {
+        font-size: 16px;
+        color: gray;
+    }
+
+    .container-form {
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+    }
+
+    label {
+        color: gray;
+        font-size: 23px;
+    }
+
+    label,
+    input,
+    textarea {
+        width: 100%;
+    }
+
+    .btn-primary {
+        background-color: $colorSecundario; 
+        border-color: #444;
+
+        &:hover {
+            background-color: $colorPrimario; 
+            border-color: #444;
+        }
+    }
+    /* Fin estilos media para contacto.html */
+}

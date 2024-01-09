@@ -84,3 +84,51 @@
 
 
 /* Fin estilos curriculum.html */
+
+/* Media query para pantalla con ancho máximo de 768px */
+@media screen and (max-width: 768px) {
+    .section-container{
+        display: block;
+    }
+    #historiaLaboral,
+    #estudios {
+        border: 4px solid gray;
+        margin-bottom: 20px;
+        padding: 15px;
+        width: 100%;
+    }
+
+    #curriculum img {
+        height: 500px;
+        width: 350px;
+        border: 4px solid gray;
+    }
+
+    .title-cv {
+        h1 {
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+    }
+
+    .fechaCv {
+        color: white;
+    }
+
+    .puestoCv {
+        font-size: 18px;
+        color: $colorPrimario;
+    }
+
+    .academia {
+        color: white;
+    }
+
+    #historiaLaboral .descriptionCv,
+    #estudios .descriptionCv {
+        display: none;
+    }
+}

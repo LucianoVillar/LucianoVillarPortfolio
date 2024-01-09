@@ -18,9 +18,8 @@ main {
 }
 
 /*Fin estilos globales de la pagina*/
-/* Inicio estilos Header */
-.navbar {
-  background-color: #daa520;
+.bg-body-tertiary {
+  background-color: #daa520 !important;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -28,16 +27,17 @@ main {
   top: 0;
   height: 70px;
   width: 100%;
+  /* Estilos para pantalla con ancho máximo de 768px */
 }
-.navbar ul {
+.bg-body-tertiary .navbar-nav {
   list-style: none;
   padding: 0;
   display: flex;
 }
-.navbar li {
+.bg-body-tertiary .nav-item {
   margin: 0;
 }
-.navbar a {
+.bg-body-tertiary .nav-link {
   color: white;
   font-family: "Barlow", sans-serif;
   font-size: 20px;
@@ -46,15 +46,26 @@ main {
   border-radius: 5px;
   transition: background-color 0.3s ease-in-out;
 }
-.navbar a:hover {
+.bg-body-tertiary .nav-link:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
-.navbar .active {
+.bg-body-tertiary .nav-link.active {
   font-weight: bold;
   color: #000;
 }
+@media (max-width: 768px) {
+  .bg-body-tertiary {
+    height: auto;
+  }
+  .bg-body-tertiary .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .bg-body-tertiary .nav-item {
+    margin: 10px 0;
+  }
+}
 
-/* Fin estilos Header */
 /* Inicio Estilos Footer */
 footer {
   background-color: #daa520;
@@ -179,6 +190,29 @@ a.stretched-link:hover {
 }
 
 /* Fin estilos streched links  */
+@media screen and (max-width: 768px) {
+  /* Inicio estilos media index.html*/
+  #certificados {
+    flex-direction: column;
+    align-items: center;
+  }
+  .curso-certificado {
+    margin-bottom: 30px;
+  }
+  #index-content p {
+    display: none;
+  }
+  .title-curso {
+    color: white;
+  }
+  .img-index {
+    border: 2px solid #000;
+  }
+  .row.g-0 p {
+    display: none;
+  }
+  /* Fin estilos media index.html*/
+}
 /* Inicio estilos quiensoy.html */
 .container {
   max-width: 800px;
@@ -234,6 +268,30 @@ a.stretched-link:hover {
 }
 
 /* Fin estilos quiensoy.html */
+@media screen and (max-width: 768px) {
+  /* Inicio estilos media quiensoy.html */
+  .content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #imgYo {
+    height: 500px;
+    width: 300px;
+    margin-right: 0;
+    margin-bottom: 20px;
+    border: 4px solid gray;
+  }
+  #titleYo,
+  #subTitleYo,
+  .text p {
+    text-align: center;
+  }
+  #factYo {
+    display: none;
+  }
+}
+/* Fin estilos media para quiensoy.html */
 /* Inicio estilos curriculum.html */
 #curriculum {
   color: white;
@@ -315,6 +373,44 @@ ul {
 
 /* Fin estilo para Experiencia Laboral y Formación Académica */
 /* Fin estilos curriculum.html */
+/* Media query para pantalla con ancho máximo de 768px */
+@media screen and (max-width: 768px) {
+  .section-container {
+    display: block;
+  }
+  #historiaLaboral,
+  #estudios {
+    border: 4px solid gray;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 100%;
+  }
+  #curriculum img {
+    height: 500px;
+    width: 350px;
+    border: 4px solid gray;
+  }
+  .title-cv h1 {
+    font-size: 28px;
+  }
+  .title-cv h2 {
+    font-size: 20px;
+  }
+  .fechaCv {
+    color: white;
+  }
+  .puestoCv {
+    font-size: 18px;
+    color: #daa520;
+  }
+  .academia {
+    color: white;
+  }
+  #historiaLaboral .descriptionCv,
+  #estudios .descriptionCv {
+    display: none;
+  }
+}
 /* Estilos servicios.html */
 #title-section,
 #services-section {
@@ -373,6 +469,37 @@ button:hover {
 }
 
 /* Fin estilos servicios.html */
+@media screen and (max-width: 768px) {
+  /* Inicio estilos media para servicios.html */
+  #title-section h1 {
+    font-size: 28px;
+  }
+  #title-section p {
+    font-size: 16px;
+  }
+  #services-section {
+    display: block;
+    margin: 20px;
+  }
+  .misServices {
+    padding: 15px;
+    border: 1px solid grey;
+    margin-bottom: 30px;
+  }
+  .misServices p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .title-service {
+    font-size: 20px;
+  }
+  button {
+    padding: 8px 15px;
+    font-size: 16px;
+    color: #daa520;
+  }
+}
+/* Fin estilos media para servicios.html */
 /* Inicio estilo contacto.html */
 /*Inicio estilo formulario*/
 /* Estilo formulario */
@@ -514,137 +641,6 @@ ul {
 
 /* Fin estilo contacto.html*/
 @media screen and (max-width: 768px) {
-  /* Inicio estilos media para el navbar y footer global*/
-  .navbar {
-    background-color: gray;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 70px;
-  }
-  .navbar ul {
-    flex-direction: row;
-  }
-  .navbar li {
-    margin: 0 10px;
-  }
-  .navbar a {
-    padding: 10px;
-    text-align: center;
-    color: gold;
-  }
-  footer {
-    background-color: gray;
-  }
-  footer a {
-    color: gold;
-  }
-  /* Fin estilos media para el navbar y footer global*/
-  /* Inicio estilos media index.html*/
-  #certificados {
-    flex-direction: column;
-    align-items: center;
-  }
-  .curso-certificado {
-    margin-bottom: 30px;
-  }
-  #index-content p {
-    display: none;
-  }
-  .title-curso {
-    color: white;
-  }
-  .img-index {
-    border: 2px solid #000;
-  }
-  .row.g-0 p {
-    display: none;
-  }
-  /* Fin estilos media index.html*/
-  /* Inicio estilos media quiensoy.html */
-  .content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  #imgYo {
-    height: 500px;
-    width: 300px;
-    margin-right: 0;
-    margin-bottom: 20px;
-    border: 4px solid gray;
-  }
-  #titleYo,
-  #subTitleYo,
-  .text p {
-    text-align: center;
-  }
-  #factYo {
-    display: none;
-  }
-  /* Fin estilos media para quiensoy.html */
-  /* Inicio estilos media para curriculum.html */
-  #curriculum img {
-    height: 500px;
-    width: 350px;
-    border: 4px solid gray;
-  }
-  #historiaLaboral, #estudios {
-    border: 4px solid gray;
-    margin-bottom: 20px;
-    padding: 15px;
-  }
-  .title-cv h1 {
-    font-size: 28px;
-  }
-  .title-cv h2 {
-    font-size: 20px;
-  }
-  .fechaCv {
-    color: white;
-  }
-  .puestoCv {
-    font-size: 18px;
-    color: #daa520;
-  }
-  .academia {
-    color: white;
-  }
-  #historiaLaboral .descriptionCv,
-  #estudios .descriptionCv {
-    display: none;
-  }
-  /* Fin estilos media para curriculum.html */
-  /* Inicio estilos media para servicios.html */
-  #title-section h1 {
-    font-size: 28px;
-  }
-  #title-section p {
-    font-size: 16px;
-  }
-  #services-section {
-    display: block;
-    margin: 20px;
-  }
-  .misServices {
-    padding: 15px;
-    border: 1px solid grey;
-    margin-bottom: 30px;
-  }
-  .misServices p {
-    font-size: 14px;
-    margin-bottom: 15px;
-  }
-  .title-service {
-    font-size: 20px;
-  }
-  button {
-    padding: 8px 15px;
-    font-size: 16px;
-    color: #daa520;
-    background-color: gray;
-  }
-  /* Fin estilos media para servicios.html */
   /* Inicio estilos media para contacto.html */
   .subtitle-contact {
     font-size: 28px;
