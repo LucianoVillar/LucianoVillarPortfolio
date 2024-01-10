@@ -86,27 +86,38 @@
         }
 
         a.stretched-link {
-            color: $colorPrimario;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color:$colorPrimario;
+            color: $colorSecundario;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        
+            &:hover {
+                color: $colorPrimario;
+                background-color: $colorSecundario;
+            }
         }
     }
 }
 
-a.stretched-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: grey;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
 
-    &:hover {
-        background-color: $colorSecundario;
-    }
-}
 /* Fin estilos streched links  */
+/* Inicio estilos media index.html*/
+@media screen and (max-width: 991px) {
+    
+    .title-curso {
+        text-align: center;
+      }
+    
+    .desc-text{
+        display: none;
+      }
+  }
+  
 @media screen and (max-width: 768px) {
-    /* Inicio estilos media index.html*/
+    
     #certificados {
       flex-direction: column;
       align-items: center;
@@ -121,15 +132,30 @@ a.stretched-link {
 
       .title-curso {
         color: white;
+        text-align: center;
       }
 
       .img-index {
         border: 2px solid $colorSecundario;
       }
 
-      .row.g-0 p {
+      .row.g-0{ 
+
+        .col-md-6 {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+            
+        p {
         display: none; 
       }
     
+      .mt-0{
+        text-align: center;
+      }
+
+    }
     /* Fin estilos media index.html*/
 }

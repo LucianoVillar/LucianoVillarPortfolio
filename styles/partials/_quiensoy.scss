@@ -56,26 +56,39 @@
 
 /* Fin estilos quiensoy.html */
 
+@media (max-width: 991px) {
+    .content{
+        text-align: center;
+
+#subTitleYo{
+    color:gray;
+}
+
+    #imgYo {
+        border: 4px solid gray;
+    }
+
+    #factYo {
+        background-color: grey;
+    }
+}
+    }
+
+
+
 @media screen and (max-width: 768px) {
     
     /* Inicio estilos media quiensoy.html */
     .content {
             flex-direction: column;
             align-items: center;
-            text-align: center;
+            
         }
             #imgYo {
                 height: 500px;
                 width: 300px;
                 margin-right: 0;
                 margin-bottom: 20px;
-                border: 4px solid gray;
-            }
-
-            #titleYo,
-            #subTitleYo,
-            .text p {
-                text-align: center;
             }
 
             #factYo {

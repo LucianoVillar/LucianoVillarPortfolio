@@ -37,15 +37,6 @@
             font-size: 18px;
             margin-bottom: 20px;
         }
-    }
-
-    .title-service {
-            font-family: 'Dosis', sans-serif;
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        
 
         button {
             background-color: $colorPrimario;
@@ -53,23 +44,58 @@
             padding: 10px 20px;
             border-radius: 4px;
             font-family: 'Barlow', sans-serif;
-            font-size: 18px;
+            font-size: 25px;
 
             &:hover {
                 background-color: rgba(255, 255, 255, 0.2);
             }
         }
+
+    }
+
+    .title-service {
+            font-family: 'Dosis', sans-serif;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+    
+        
+    
 /* Fin estilos servicios.html */
+
+@media screen and (max-width: 991px) {
+    
+    .misServices {
+        padding: 15px; 
+        margin: 15px;
+        p { 
+            font-size: 14px; 
+            margin-bottom: 15px;
+            }
+
+            button {
+                font-size: 15px;
+        
+                &:hover {
+                    background-color: $colorSecundario;
+                    border: 1px solid $colorPrimario;
+                }
+            }
+
+        }
+
+        
+    }
 
 @media screen and (max-width: 768px) {
     /* Inicio estilos media para servicios.html */
     #title-section{
      h1 {
-        font-size: 28px;
+        font-size: 38px;
     }
 
      p {
-        font-size: 16px; 
+        font-size: 20px; 
     }
     }
 
@@ -84,8 +110,18 @@
         margin-bottom: 30px;
 
         p {
-            font-size: 14px; 
-            margin-bottom: 15px; 
+            display: none; 
+        }
+
+        button {
+            padding: 8px 15px;
+            font-size: 20px;
+            background-color: grey;
+            
+            &:hover {
+                color: $colorPrimario;
+            }
+
         }
 
     }
@@ -95,10 +131,6 @@
     }
 
 
-    button {
-        padding: 8px 15px;
-        font-size: 16px;
-        color: $colorPrimario;
-    }
+    
 }
     /* Fin estilos media para servicios.html */

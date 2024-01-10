@@ -37,8 +37,8 @@
         }
     }
 
-    /* Estilos para pantalla con ancho máximo de 768px */
-    @media (max-width: 768px) {
+    /* Estilos para pantalla con ancho máximo de 991px */
+    @media (max-width: 991px) {
         height: auto;
         .navbar-nav {
             flex-direction: column;
