@@ -1,7 +1,7 @@
 /* Inicio estilos curriculum.html */
 
 #curriculum {
-    color: white;
+    color: $colorDetalles1;
     text-align: center;
     padding: 20px;
 
@@ -21,7 +21,7 @@
     .title-cv {
         text-align: center;
         padding: 20px;
-        color: white;
+        color: $colorDetalles1;
 
         h2 {
             font-family: 'Barlow', sans-serif;
@@ -89,14 +89,14 @@
 @media (max-width: 991px) {
 #historiaLaboral,
 #estudios {
-        border: 4px solid gray;
+        border: 4px solid $colorVariante1;
     
          .descriptionCv {
             font-size: 15px;
         }
     }
 #curriculum img {
-        border: 4px solid gray;
+        border: 4px solid $colorVariante1;
     }
 
     .fechaCv {
@@ -106,7 +106,7 @@
 
     .puestoCv {
         font-size: 15px;
-        color: white;
+        color: $colorDetalles1;
     }
 
     .academia {
@@ -129,7 +129,7 @@
     #curriculum img {
         height: 500px;
         width: 350px;
-        border: 4px solid gray;
+        border: 4px solid $colorVariante1;
     }
 
     .title-cv {
@@ -143,7 +143,7 @@
     }
 
     .fechaCv {
-        color: white;
+        color: $colorDetalles1;
     }
 
     .puestoCv {
@@ -152,7 +152,7 @@
     }
 
     .academia {
-        color: white;
+        color: $colorDetalles1;
     }
 
     #historiaLaboral .descriptionCv,

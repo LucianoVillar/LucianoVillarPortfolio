@@ -7,6 +7,7 @@
   <title>Luciano Villar - Personal Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./styles/estilos.css">
 </head>
 
@@ -51,18 +52,26 @@
     </section>
 
     <section id="certificados"> <!-- Inicio seccion certificados -->
-      <div id="fsd-certificado">
+      <div data-aos="flip-left">
+        <div id="fsd-certificado">
         <h3 class="title-curso">Full Stack Developer</h3>
         <img src="./img/diplomasenpai.jpg" alt="" class="img-index">
       </div>
+    </div>
+
+    <div data-aos="flip-left">
       <div id="js-curso">
         <h3 class="title-curso">JavaScript</h3>
         <img src="./img/javascriptcoderhouse.png" alt="" class="img-index">
       </div>
+    </div>
+
+    <div data-aos="flip-left">
       <div id="sql-certificado">
         <h3 class="title-curso">SQL</h3>
         <img src="./img/diplomasql.png" alt="" class="img-index">
       </div>
+    </div>
     </section> <!-- Fin seccion certificados -->
 
     <div class="row g-0 bg-body-secondary position-relative">
@@ -130,7 +139,12 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+      AOS.init();
+  </script>
 </body>
 
 </html>

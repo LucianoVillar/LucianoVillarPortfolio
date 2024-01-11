@@ -31,13 +31,13 @@
             border: 1px solid $colorPrimario;
             border-radius: 4px;
             background-color: #444;
-            color: white;
+            color: $colorDetalles1;
             font-family: 'Dosis', sans-serif;
         }
 
         button {
             background-color: $colorPrimario;
-            color: white;
+            color: $colorDetalles1;
             padding: 10px 20px;
             border: none;
             border-radius: 4px;
@@ -74,7 +74,7 @@
     text-align: center;
     padding: 40px 0;
     background-color: $colorSecundario;
-    color: white;
+    color: $colorDetalles1;
 
     p {
         font-family: 'Barlow', sans-serif;
@@ -111,14 +111,14 @@
             transition: color 0.3s ease-in-out;
 
             &:hover {
-                color: white;
+                color: $colorDetalles1;
                 background-color: rgba(255, 255, 255, 0.2);
                 padding: 5px;
                 border-radius: 5px;
             }
 
             &:focus {
-                outline: 2px solid white;
+                outline: 2px solid $colorDetalles1;
             }
         }
     }
@@ -137,12 +137,12 @@
         transition: color 0.3s ease-in-out;
 
         &:hover {
-            color: white;
+            color: $colorDetalles1;
             background-color: $colorPrimario;
         }
 
         &:focus {
-            outline: 2px solid white;
+            outline: 2px solid $colorDetalles1;
         }
     }
 
@@ -166,7 +166,7 @@
     .medios-contact a,
     .medios-contact__link {
         font-size: 16px;
-        color: gray;
+        color: $colorVariante1;
     }
 
     .container-form {
@@ -176,7 +176,7 @@
     }
 
     label {
-        color: white;
+        color: $colorDetalles1;
         font-size: 23px;
     }
 

@@ -5,7 +5,7 @@
 * {
   padding: 0;
   margin: 0;
-  color: white;
+  color: #ffffff;
 }
 
 body {
@@ -38,7 +38,7 @@ main {
   margin: 0;
 }
 .bg-body-tertiary .nav-link {
-  color: white;
+  color: #ffffff;
   font-family: "Barlow", sans-serif;
   font-size: 20px;
   text-decoration: none;
@@ -80,7 +80,7 @@ footer {
   width: 100%;
 }
 footer a {
-  color: white;
+  color: #ffffff;
   font-family: "Barlow", sans-serif;
   font-size: 16px;
   text-decoration: none;
@@ -97,7 +97,7 @@ footer a:hover {
 #index-content {
   text-align: center;
   padding: 20px;
-  color: white;
+  color: #ffffff;
 }
 #index-content h1 {
   font-family: "Barlow", sans-serif;
@@ -150,7 +150,7 @@ footer a:hover {
   margin-bottom: 20px;
   max-width: 50%;
   border-radius: 10px;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
 }
 .row.g-0 .col-md-6 {
   padding: 20px;
@@ -208,7 +208,7 @@ footer a:hover {
     display: none;
   }
   .title-curso {
-    color: white;
+    color: #ffffff;
     text-align: center;
   }
   .img-index {
@@ -232,7 +232,7 @@ footer a:hover {
 .container {
   max-width: 800px;
   margin: 0 auto;
-  color: white;
+  color: #ffffff;
 }
 
 .content {
@@ -288,13 +288,13 @@ footer a:hover {
     text-align: center;
   }
   .content #subTitleYo {
-    color: gray;
+    color: #808080;
   }
   .content #imgYo {
-    border: 4px solid gray;
+    border: 4px solid #808080;
   }
   .content #factYo {
-    background-color: grey;
+    background-color: #808080;
   }
 }
 @media screen and (max-width: 768px) {
@@ -316,7 +316,7 @@ footer a:hover {
 /* Fin estilos media para quiensoy.html */
 /* Inicio estilos curriculum.html */
 #curriculum {
-  color: white;
+  color: #ffffff;
   text-align: center;
   padding: 20px;
 }
@@ -335,7 +335,7 @@ footer a:hover {
 .title-cv {
   text-align: center;
   padding: 20px;
-  color: white;
+  color: #ffffff;
 }
 .title-cv h2 {
   font-family: "Barlow", sans-serif;
@@ -399,14 +399,14 @@ ul {
 @media (max-width: 991px) {
   #historiaLaboral,
   #estudios {
-    border: 4px solid gray;
+    border: 4px solid #808080;
   }
   #historiaLaboral .descriptionCv,
   #estudios .descriptionCv {
     font-size: 15px;
   }
   #curriculum img {
-    border: 4px solid gray;
+    border: 4px solid #808080;
   }
   .fechaCv {
     color: #daa520;
@@ -414,7 +414,7 @@ ul {
   }
   .puestoCv {
     font-size: 15px;
-    color: white;
+    color: #ffffff;
   }
   .academia {
     color: #daa520;
@@ -435,7 +435,7 @@ ul {
   #curriculum img {
     height: 500px;
     width: 350px;
-    border: 4px solid gray;
+    border: 4px solid #808080;
   }
   .title-cv h1 {
     font-size: 28px;
@@ -444,14 +444,14 @@ ul {
     font-size: 20px;
   }
   .fechaCv {
-    color: white;
+    color: #ffffff;
   }
   .puestoCv {
     font-size: 18px;
     color: #daa520;
   }
   .academia {
-    color: white;
+    color: #ffffff;
   }
   #historiaLaboral .descriptionCv,
   #estudios .descriptionCv {
@@ -469,13 +469,13 @@ ul {
   font-family: "Dosis", sans-serif;
   font-size: 36px;
   margin-bottom: 10px;
-  color: white;
+  color: #ffffff;
 }
 #title-section p {
   font-family: "Barlow", sans-serif;
   font-size: 18px;
   margin-bottom: 10px;
-  color: white;
+  color: #ffffff;
 }
 
 #services-section {
@@ -486,7 +486,7 @@ ul {
 
 .misServices {
   background-color: #000;
-  color: white;
+  color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   border: 2px solid #daa520;
@@ -498,7 +498,7 @@ ul {
 }
 .misServices button {
   background-color: #daa520;
-  color: white;
+  color: #ffffff;
   padding: 10px 20px;
   border-radius: 4px;
   font-family: "Barlow", sans-serif;
@@ -546,7 +546,7 @@ ul {
   }
   .misServices {
     padding: 15px;
-    border: 1px solid grey;
+    border: 1px solid #808080;
     margin-bottom: 30px;
   }
   .misServices p {
@@ -555,7 +555,7 @@ ul {
   .misServices button {
     padding: 8px 15px;
     font-size: 20px;
-    background-color: grey;
+    background-color: #808080;
   }
   .misServices button:hover {
     color: #daa520;
@@ -599,13 +599,13 @@ textarea {
   border: 1px solid #daa520;
   border-radius: 4px;
   background-color: #444;
-  color: white;
+  color: #ffffff;
   font-family: "Dosis", sans-serif;
 }
 
 button {
   background-color: #daa520;
-  color: white;
+  color: #ffffff;
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
@@ -639,7 +639,7 @@ button:hover {
   text-align: center;
   padding: 40px 0;
   background-color: #000;
-  color: white;
+  color: #ffffff;
 }
 #section-contact p {
   font-family: "Barlow", sans-serif;
@@ -675,13 +675,13 @@ ul {
   transition: color 0.3s ease-in-out;
 }
 .medios-contact a:hover {
-  color: white;
+  color: #ffffff;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 5px;
   border-radius: 5px;
 }
 .medios-contact a:focus {
-  outline: 2px solid white;
+  outline: 2px solid #ffffff;
 }
 
 .medios-contact__title {
@@ -698,11 +698,11 @@ ul {
   transition: color 0.3s ease-in-out;
 }
 .medios-contact__link:hover {
-  color: white;
+  color: #ffffff;
   background-color: #daa520;
 }
 .medios-contact__link:focus {
-  outline: 2px solid white;
+  outline: 2px solid #ffffff;
 }
 
 /* Fin estilo contacto.html*/
@@ -721,7 +721,7 @@ ul {
   .medios-contact a,
   .medios-contact__link {
     font-size: 16px;
-    color: gray;
+    color: #808080;
   }
   .container-form {
     flex-direction: column;
@@ -729,7 +729,7 @@ ul {
     justify-content: center;
   }
   label {
-    color: white;
+    color: #ffffff;
     font-size: 23px;
   }
   label,

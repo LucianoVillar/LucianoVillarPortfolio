@@ -19,7 +19,7 @@
     }
 
     .nav-link {
-        color: white;
+        color: $colorDetalles1;
         font-family: 'Barlow', sans-serif;
         font-size: 20px;
         text-decoration: none;
@@ -35,6 +35,7 @@
             font-weight: bold;
             color: $colorSecundario;
         }
+
     }
 
     /* Estilos para pantalla con ancho máximo de 991px */

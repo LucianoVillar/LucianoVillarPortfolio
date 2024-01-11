@@ -2,13 +2,13 @@
 #index-content {
     text-align: center;
     padding: 20px;
-    color: white;
+    color: $colorDetalles1;
 
     h1 {
         font-family: 'Barlow', sans-serif;
         font-size: 36px;
         margin-bottom: 10px;
-    }
+      }
 
     h2 {
         font-family: 'Dosis', sans-serif;
@@ -60,7 +60,7 @@
     margin-bottom: 20px;
     max-width: 50%;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid $colorDetalles1;
 
     .col-md-6 {
         padding: 20px;
@@ -131,7 +131,7 @@
       }
 
       .title-curso {
-        color: white;
+        color: $colorDetalles1;
         text-align: center;
       }
 
