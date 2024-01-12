@@ -518,7 +518,8 @@ ul {
 .misServices {
   background-color: #000;
   color: #ffffff;
-  padding: 20px;
+  padding: 25px;
+  margin: 12px;
   border-radius: 8px;
   border: 2px solid #daa520;
 }
