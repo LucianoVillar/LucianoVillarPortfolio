@@ -5,11 +5,46 @@ footer {
     justify-content: center;
     align-items: center;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    height: 70px;
+    height: 120px; /* Aumenté la altura para dar espacio a los nuevos elementos */
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 100px;
+
+    .contenido-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: $colorDetalles1;
+
+        .misRedes {
+            font-family: 'Barlow', sans-serif;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .iconos {
+            display: flex;
+            justify-content: center;
+
+            .icono {
+                margin: 0 10px;
+                border-radius: 50%;
+                transition: background-color 0.3s ease-in-out;
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.2);
+                }
+            }
+        }
+
+        .copyright {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    }
 
     a {
         color: $colorDetalles1;
