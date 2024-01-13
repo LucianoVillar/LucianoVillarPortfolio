@@ -77,12 +77,12 @@
 
 
 @media screen and (max-width: 768px) {
+    main {
+margin: 7px;
     
-    /* Inicio estilos media quiensoy.html */
     .content {
             flex-direction: column;
             align-items: center;
-            
         }
             #imgYo {
                 height: 500px;
@@ -96,4 +96,26 @@
             }
         
         }
+    }
+        
     /* Fin estilos media para quiensoy.html */
+
+    @media (max-width: 576px) {
+        main {
+          margin: 7px;
+        .text{
+            #titleYo {
+                font-size: 28px;
+            }
+
+            #subTitleYo {
+                font-size: 20px;
+            }
+
+          p {
+            font-size: 14px; 
+          }
+        }
+        }
+      }
+      

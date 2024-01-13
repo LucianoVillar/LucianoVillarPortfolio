@@ -328,22 +328,38 @@ footer a:hover {
   }
 }
 @media screen and (max-width: 768px) {
-  /* Inicio estilos media quiensoy.html */
-  .content {
+  main {
+    margin: 7px;
+  }
+  main .content {
     flex-direction: column;
     align-items: center;
   }
-  #imgYo {
+  main #imgYo {
     height: 500px;
     width: 300px;
     margin-right: 0;
     margin-bottom: 20px;
   }
-  #factYo {
+  main #factYo {
     display: none;
   }
 }
 /* Fin estilos media para quiensoy.html */
+@media (max-width: 576px) {
+  main {
+    margin: 7px;
+  }
+  main .text #titleYo {
+    font-size: 28px;
+  }
+  main .text #subTitleYo {
+    font-size: 20px;
+  }
+  main .text p {
+    font-size: 14px;
+  }
+}
 /* Inicio estilos curriculum.html */
 #curriculum {
   color: #ffffff;
@@ -553,7 +569,7 @@ ul {
     margin: 15px;
   }
   .misServices p {
-    font-size: 14px;
+    font-size: 1px;
     margin-bottom: 15px;
   }
   .misServices button {
@@ -595,6 +611,17 @@ ul {
   }
   .title-service {
     font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  main {
+    margin: 2px;
+  }
+  main #title-section h1 {
+    font-size: 30px;
+  }
+  main #title-section p {
+    font-size: 18px;
   }
 }
 /* Fin estilos media para servicios.html */
@@ -757,6 +784,7 @@ ul {
     color: #808080;
   }
   .container-form {
+    margin: 8px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -779,4 +807,10 @@ ul {
     border-color: #444;
   }
   /* Fin estilos media para contacto.html */
-}/*# sourceMappingURL=estilos.css.map */
+}
+@media (max-width: 576px) {
+  main .container-form {
+    margin: 15px;
+  }
+}
+/* Fin estilos media para servicios.html *//*# sourceMappingURL=estilos.css.map */

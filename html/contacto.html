@@ -2,125 +2,137 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../styles/estilos.css">
-    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-    <title>Luciano Villar - Contacto </title>
-    <meta name="description" content="Conéctate conmigo. Encuentra mis medios de contacto y un formulario para discutir tus ideas. Estoy aquí para dar vida a tus proyectos. ¡Hablemos! 📧👋">
-    <meta name="keywords" content="Contacto, Formulario de contacto, Conectar, Colaboración, Consulta, Programador, Desarrollador web, Comunicación, Proyectos, Servicios digitales">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles/estilos.css">
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Luciano Villar - Contacto </title>
+  <meta name="description"
+    content="Conéctate conmigo. Encuentra mis medios de contacto y un formulario para discutir tus ideas. Estoy aquí para dar vida a tus proyectos. ¡Hablemos! 📧👋">
+  <meta name="keywords"
+    content="Contacto, Formulario de contacto, Conectar, Colaboración, Consulta, Programador, Desarrollador web, Comunicación, Proyectos, Servicios digitales">
 </head>
 
 <body>
-    <header> <!-- Inicio Header -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">Luciano Villar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./quiensoy.html">Quien soy</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./curriculum.html">Mi curriculum</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./servicios.html">Mis servicios</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Contacto</a>
-                </li>
-              </ul>
+  <header> <!-- Inicio Header -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">Luciano Villar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./quiensoy.html">Quien soy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./curriculum.html">Mi curriculum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./servicios.html">Mis servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header> <!-- Fin Header -->
+
+  <main> <!-- Inicio Main -->
+    <section id="section-contact"> <!-- Inicio seccion medios de contacto -->
+      <h1 class="subtitle-contact">¿Quieres contactarme?</h1>
+      <p>Contactate conmigo a traves de los siguientes medios</p>
+      <ul>
+        <li class="medios-contact">
+          <h3 class="medios-contact__title">Celular:</h3>
+          <a class="medios-contact__link" href="tel:+598 98 384 403" target="_blank">+598 98 384 403</a>
+        </li>
+
+        <li class="medios-contact">
+          <h3 class="medios-contact__title">Correo:</h3>
+          <a class="medios-contact__link" href="mailto:luvillar2000@gmail.com"
+            target="_blank">luvillar2000@gmail.com</a>
+        </li>
+        <li class="medios-contact">
+          <h3 class="medios-contact__title">Linkedin</h3>
+          <a class="medios-contact__link" href="https://www.linkedin.com/in/luciano-villar-719824229/"
+            target="_blank">https://www.linkedin.com/in/luciano-villar-719824229/</a>
+        </li>
+      </ul>
+    </section> <!-- Fin seccion medios de contacto -->
+    <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2500">
+      <div class="container-form">
+        <form class="row g-3"> <!-- Inicio formulario -->
+          <div class="row">
+            <div class="col">
+              <label for="exampleFormControlName">Nombre:</label>
+              <input type="text" class="form-control" aria-label="First name" id="exampleFormControlName">
+            </div>
+            <div class="col">
+              <label for="exampleFormControlLastName">Apellido:</label>
+              <input type="text" class="form-control" aria-label="Last name" id="exampleFormControlLastName">
             </div>
           </div>
-        </nav>
-      </header> <!-- Fin Header -->
-
-    <main> <!-- Inicio Main -->
-        <section id="section-contact"> <!-- Inicio seccion medios de contacto -->
-            <h1 class="subtitle-contact">¿Quieres contactarme?</h1>
-            <p>Contactate conmigo a traves de los siguientes medios</p>
-            <ul>
-                <li class="medios-contact">
-                    <h3 class="medios-contact__title">Celular:</h3>
-                    <a class="medios-contact__link" href="tel:+598 98 384 403" target="_blank">+598 98 384 403</a>
-                </li>
-
-                <li class="medios-contact">
-                    <h3 class="medios-contact__title">Correo:</h3>
-                    <a class="medios-contact__link" href="mailto:luvillar2000@gmail.com"
-                        target="_blank">luvillar2000@gmail.com</a>
-                </li>
-                <li class="medios-contact">
-                    <h3 class="medios-contact__title">Linkedin</h3>
-                    <a class="medios-contact__link" href="https://www.linkedin.com/in/luciano-villar-719824229/"
-                        target="_blank">https://www.linkedin.com/in/luciano-villar-719824229/</a>
-                </li>
-            </ul>
-        </section> <!-- Fin seccion medios de contacto -->
-
-    <div class="container-form">
-        <form class="row g-3"> <!-- Inicio formulario -->
-            <div class="row">
-                <div class="col">
-                    <label for="exampleFormControlName">Nombre:</label>
-                    <input type="text" class="form-control" aria-label="First name" id="exampleFormControlName">
-                </div>
-                <div class="col">
-                    <label for="exampleFormControlLastName">Apellido:</label>
-                    <input type="text" class="form-control" aria-label="Last name" id="exampleFormControlLastName">
-                </div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Direccion de correo:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Deje su comentario:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="col-12">
-                <button type="submit" class="btn btn-primary">Enviar</button>
-            </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Direccion de correo:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Deje su comentario:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
         </form> <!-- Fin formulario -->
+      </div>
     </div>
+  </main> <!-- Fin Main -->
 
-    </main> <!-- Fin Main -->
-
-    <footer> <!-- Inicio footer -->
-      <div class="contenido-footer">
-        <p class="misRedes">
-         <strong>Seguime en mis redes:</strong>
-        </p>
-        <div class="iconos">
-          <a href="https://www.linkedin.com/in/luciano-villar-719824229/" target="_blank">
-            <img class="icono" src="../img/linkedinnegro.png" alt="Linkedin" width="35px" height="35px">
-          </a>
-          <a href="https://www.instagram.com/luchoovillar/" target="_blank">
-            <img class="icono" src="../img/instagramnegro.png" alt="Instagram" width="35px" height="35px">
-          </a>
-          <a href="https://twitter.com/xxlucheinxx" target="_blank">
-            <img class="icono" src="../img/twitternegro.png" alt="Twitter" width="35px" height="35px">
-          </a>
-        </div>
-        <div class="copyright">
-          <small>© 2024 Luciano Villar - Todos los derechos reservados</small>
-        </div>
+  <footer> <!-- Inicio footer -->
+    <div class="contenido-footer">
+      <p class="misRedes">
+        <strong>Seguime en mis redes:</strong>
+      </p>
+      <div class="iconos">
+        <a href="https://www.linkedin.com/in/luciano-villar-719824229/" target="_blank">
+          <img class="icono" src="../img/linkedinnegro.png" alt="Linkedin" width="35px" height="35px">
+        </a>
+        <a href="https://www.instagram.com/luchoovillar/" target="_blank">
+          <img class="icono" src="../img/instagramnegro.png" alt="Instagram" width="35px" height="35px">
+        </a>
+        <a href="https://twitter.com/xxlucheinxx" target="_blank">
+          <img class="icono" src="../img/twitternegro.png" alt="Twitter" width="35px" height="35px">
+        </a>
+      </div>
+      <div class="copyright">
+        <small>© 2024 Luciano Villar - Todos los derechos reservados</small>
+      </div>
     </div>
-    </footer> <!-- Fin footer -->
+  </footer> <!-- Fin footer -->
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 
