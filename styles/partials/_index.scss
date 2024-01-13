@@ -159,3 +159,20 @@
     }
     /* Fin estilos media index.html*/
 }
+
+@media screen and (max-width: 360px) {
+
+  .row.g-0{ 
+
+    .col-md-6 {
+      h5 {
+          font-size: 19px;
+      }
+
+      a.stretched-link {
+        padding: 5px 10px;
+    }
+
+    }
+  }
+}

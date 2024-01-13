@@ -1,13 +1,12 @@
 /* Inicio estilos curriculum.html */
-
 #curriculum {
     color: $colorDetalles1;
     text-align: center;
-    padding: 20px;
-
+    padding: 10px;
+    
     img {
         width: 100%;
-        max-width: 400px;
+        max-width: 350px;
         border-radius: 12px;
         border: 4px solid $colorPrimario;
     }
@@ -35,6 +34,7 @@
             margin-bottom: 10px;
         }
     }
+    
 
     /* Inicio estilo para Experiencia Laboral y Formación Académica */
     #historiaLaboral, #estudios {
@@ -80,7 +80,7 @@
             color: $colorPrimario;
             margin-bottom: 8px;
         }
-
+    
     /* Fin estilo para Experiencia Laboral y Formación Académica */
 
 
@@ -116,6 +116,15 @@
 }
 /* Media query para pantalla con ancho máximo de 768px */
 @media screen and (max-width: 768px) {
+
+#curriculum{
+    img{
+        max-height: 400px;
+        max-width: 300px;
+    }
+}
+
+
     .section-container{
         display: block;
     }
@@ -158,5 +167,15 @@
     #historiaLaboral .descriptionCv,
     #estudios .descriptionCv {
         display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    #curriculum{
+        img{
+            max-height: 300px;
+            max-width: 200px;
+        }
     }
 }

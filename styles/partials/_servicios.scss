@@ -148,4 +148,28 @@
     }
 }
   }
+
+  @media screen and (max-width: 360px) {
+    main{ 
+    #title-section{
+        h1{
+            font-size: 23px; 
+        }
+        p{
+            font-size: 15px; 
+        }
+    }
+
+    .misServices {
+        button {
+            padding: 4px 8px;
+            font-size: 16px;
+        }
+
+    }
+
+
+
+  }
+}
     /* Fin estilos media para servicios.html */
