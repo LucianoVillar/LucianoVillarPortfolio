@@ -8,13 +8,47 @@
         font-family: 'Barlow', sans-serif;
         font-size: 36px;
         margin-bottom: 10px;
-      }
+        }
 
     h2 {
         font-family: 'Dosis', sans-serif;
-        font-size: 28px;
+        font-size: 40px;
         margin-bottom: 20px;
         color: $colorPrimario;
+    
+    &.scale-down-top {
+      -webkit-animation: scale-down-top 1.5s infinite alternate-reverse both;
+      animation: scale-down-top 1.5s infinite alternate-reverse both;
+    }
+  }
+    
+    @-webkit-keyframes scale-down-top {
+      0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+      }
+      100% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+      }
+    }
+    @keyframes scale-down-top {
+      0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+      }
+      100% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+      }
     }
 
     p {
@@ -87,19 +121,23 @@
 
         a.stretched-link {
             display: inline-block;
+            text-align: center;
+            line-height: inherit;
+            font-family: 'Barlow', sans-serif;
             padding: 10px 20px;
             background-color:$colorPrimario;
             color: $colorSecundario;
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
-        
+
             &:hover {
                 color: $colorPrimario;
                 background-color: $colorSecundario;
             }
         }
-    }
+      }
+      
 }
 
 

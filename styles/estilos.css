@@ -136,9 +136,22 @@ footer a:hover {
 }
 #index-content h2 {
   font-family: "Dosis", sans-serif;
-  font-size: 28px;
+  font-size: 40px;
   margin-bottom: 20px;
   color: #daa520;
+}
+#index-content h2.scale-down-top {
+  animation: scale-down-top 1.5s infinite alternate-reverse both;
+}
+@keyframes scale-down-top {
+  0% {
+    transform: scale(1);
+    transform-origin: 50% 0%;
+  }
+  100% {
+    transform: scale(0.5);
+    transform-origin: 50% 0%;
+  }
 }
 #index-content p {
   font-family: "Barlow", sans-serif;
@@ -204,6 +217,9 @@ footer a:hover {
 }
 .row.g-0 .col-md-6 a.stretched-link {
   display: inline-block;
+  text-align: center;
+  line-height: inherit;
+  font-family: "Barlow", sans-serif;
   padding: 10px 20px;
   background-color: #daa520;
   color: #000;
@@ -303,6 +319,19 @@ footer a:hover {
   margin-bottom: 10px;
 }
 
+.scale-up-bottom {
+  animation: scale-up-bottom 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate-reverse both;
+}
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    transform-origin: 50% 100%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 100%;
+  }
+}
 #subTitleYo {
   font-family: "Dosis", sans-serif;
   font-size: 24px;
@@ -395,6 +424,19 @@ footer a:hover {
   font-family: "Barlow", sans-serif;
   font-size: 24px;
   margin-bottom: 10px;
+}
+.title-cv h2.scale-up-bottom {
+  animation: scale-up-bottom 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate-reverse both;
+}
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    transform-origin: 50% 100%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 100%;
+  }
 }
 .title-cv h1 {
   font-family: "Dosis", sans-serif;
@@ -534,6 +576,19 @@ ul {
   font-size: 36px;
   margin-bottom: 10px;
   color: #ffffff;
+}
+#title-section h1.scale-up-bottom {
+  animation: scale-up-bottom 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate-reverse both;
+}
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    transform-origin: 50% 100%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 100%;
+  }
 }
 #title-section p {
   font-family: "Barlow", sans-serif;
@@ -743,6 +798,19 @@ button:hover {
   margin-bottom: 10px;
 }
 
+.scale-up-bottom {
+  animation: scale-up-bottom 0.8s cubic-bezier(0.39, 0.575, 0.565, 1) infinite alternate-reverse both;
+}
+@keyframes scale-up-bottom {
+  0% {
+    transform: scale(0.5);
+    transform-origin: 50% 100%;
+  }
+  100% {
+    transform: scale(1);
+    transform-origin: 50% 100%;
+  }
+}
 ul {
   list-style: none;
   padding: 0;
@@ -841,6 +909,9 @@ ul {
 @media (max-width: 576px) {
   main .container-form {
     margin: 15px;
+  }
+  main label {
+    font-size: 19px;
   }
 }
 /* Fin estilos media para servicios.html *//*# sourceMappingURL=estilos.css.map */
