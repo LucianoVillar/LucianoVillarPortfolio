@@ -178,6 +178,7 @@ footer a:hover {
   font-size: 20px;
   margin-bottom: 10px;
   color: #daa520;
+  text-align: center;
 }
 
 .img-index {
@@ -208,6 +209,7 @@ footer a:hover {
   font-family: "Barlow", sans-serif;
   font-size: 30px;
   margin-top: 0;
+  text-align: center;
 }
 .row.g-0 .col-md-6 p {
   color: #000;
@@ -216,11 +218,12 @@ footer a:hover {
   line-height: 1.5;
 }
 .row.g-0 .col-md-6 a.stretched-link {
-  display: inline-block;
+  display: flex;
   text-align: center;
+  justify-content: center;
   line-height: inherit;
   font-family: "Barlow", sans-serif;
-  padding: 10px 20px;
+  padding: 5px 5px;
   background-color: #daa520;
   color: #000;
   text-decoration: none;
@@ -331,6 +334,7 @@ footer a:hover {
   font-size: 24px;
   margin-bottom: 20px;
   color: #daa520;
+  text-align: center;
 }
 
 #factYo {
