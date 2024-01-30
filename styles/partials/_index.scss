@@ -1,4 +1,5 @@
 /* Inicio estilos index.html */
+
 #index-content {
     text-align: center;
     padding: 20px;
@@ -58,7 +59,9 @@
     }
 }
 
+
 /* Estilos para la sección de Certificados */
+
 #certificados {
     display: flex;
     justify-content: space-around;
@@ -90,6 +93,7 @@
 /* Fin estilos sección certificados */
 
 /* Inicio estilos streched links  */
+
 .row.g-0 {
     margin: 0 auto;
     margin-bottom: 10px;
@@ -150,7 +154,9 @@
 
 
 /* Fin estilos streched links  */
+
 /* Inicio estilos media index.html*/
+
 @media screen and (max-width: 991px) {
     
     .title-curso {
@@ -203,7 +209,6 @@
       }
 
     }
-    /* Fin estilos media index.html*/
 }
 
 @media screen and (max-width: 360px) {
@@ -222,3 +227,4 @@
     }
   }
 }
+ /* Fin estilos media index.html*/

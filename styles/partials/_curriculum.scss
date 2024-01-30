@@ -10,13 +10,11 @@
         border-radius: 12px;
         border: 4px solid $colorPrimario;
     }
-
 }
     .section-container {
         display: flex;
         justify-content: space-around;
     }
-
     .title-cv {
         text-align: center;
         padding: 20px;
@@ -30,18 +28,14 @@
             &.scale-up-bottom {
                 -webkit-animation: scale-up-bottom 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate-reverse both;
                         animation: scale-up-bottom 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate-reverse both;
-            }
-            
+            }            
         }
-
         h1 {
             font-family: 'Dosis', sans-serif;
             font-size: 36px;
             margin-bottom: 10px;
         }
     }
-    
-
     /* Inicio estilo para Experiencia Laboral y Formación Académica */
     #historiaLaboral, #estudios {
         flex: 1;
@@ -88,8 +82,6 @@
         }
     
     /* Fin estilo para Experiencia Laboral y Formación Académica */
-
-
 /* Fin estilos curriculum.html */
 
 @media (max-width: 991px) {
@@ -129,8 +121,6 @@
         max-width: 300px;
     }
 }
-
-
     .section-container{
         display: block;
     }
@@ -140,13 +130,11 @@
         padding: 15px;
         width: 100%;
     }
-
     #curriculum img {
         height: 500px;
         width: 350px;
         border: 4px solid $colorVariante1;
     }
-
     .title-cv {
         h1 {
             font-size: 28px;
@@ -156,26 +144,21 @@
             font-size: 20px;
         }
     }
-
     .fechaCv {
         color: $colorDetalles1;
     }
-
     .puestoCv {
         font-size: 18px;
         color: $colorPrimario;
     }
-
     .academia {
         color: $colorDetalles1;
     }
-
     #historiaLaboral .descriptionCv,
     #estudios .descriptionCv {
         display: none;
     }
 }
-
 @media screen and (max-width: 360px) {
 
     #curriculum{

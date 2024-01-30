@@ -4,14 +4,12 @@
     margin: 0 auto;
     color: $colorDetalles1;
 }
-
 .content {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
-    #imgYo {
+#imgYo {
             width: 100%;
             max-width: 400px;
             border-radius: 12px;
@@ -19,110 +17,87 @@
             margin-top: 12px;
             margin-right: 12px;
         }
-
-        .text {
-            flex: 1;
-
-            p {
-                font-family: 'Barlow', sans-serif;
-                font-size: 18px;
-                line-height: 1.5;
+.text {
+        flex: 1;
+        p {
+            font-family: 'Barlow', sans-serif;
+            font-size: 18px;
+            line-height: 1.5;
             }
         }
-
-            #titleYo {
-                font-family: 'Barlow', sans-serif;
-                font-size: 32px;
-                margin-bottom: 10px;
+#titleYo {
+            font-family: 'Barlow', sans-serif;
+            font-size: 32px;
+            margin-bottom: 10px;
             }
-
             .scale-up-bottom {
                 -webkit-animation: scale-up-bottom 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate-reverse both;
                         animation: scale-up-bottom 0.8s cubic-bezier(0.390, 0.575, 0.565, 1.000) infinite alternate-reverse both;
+            }  
+#subTitleYo {
+            font-family: 'Dosis', sans-serif;
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: $colorPrimario;
+            text-align: center;
             }
-            
-            
-            #subTitleYo {
-                font-family: 'Dosis', sans-serif;
-                font-size: 24px;
-                margin-bottom: 20px;
-                color: $colorPrimario;
-                text-align: center;
-            }
-
-            #factYo {
-                background-color: $colorPrimario;
-                padding: 20px;
-                border-radius: 8px;
-                margin-top: 20px;
-
-                h3 {
-                    color: $colorSecundario;
+#factYo {
+            background-color: $colorPrimario;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+h3 {
+            color: $colorSecundario;
                 }
             }
-
 /* Fin estilos quiensoy.html */
-
-@media (max-width: 991px) {
-    .content{
-        text-align: center;
-
-#subTitleYo{
-    color:$colorVariante1;
+    @media (max-width: 991px) {
+        .content{
+            text-align: center;
+        #subTitleYo{
+            color:$colorVariante1;
 }
-
-    #imgYo {
-        border: 4px solid $colorVariante1;
+        #imgYo {
+            border: 4px solid $colorVariante1;
     }
-
-    #factYo {
-        background-color: $colorVariante1;
+        #factYo {
+            background-color: $colorVariante1;
+        }
     }
 }
-    }
-
-
-
-@media screen and (max-width: 768px) {
-    main {
-margin: 7px;
-    
-    .content {
+    @media screen and (max-width: 768px) {
+        main {
+            margin: 7px;
+        .content {
             flex-direction: column;
             align-items: center;
         }
-            #imgYo {
-                height: 500px;
-                width: 300px;
-                margin-right: 0;
-                margin-bottom: 20px;
-            }
-
-            #factYo {
-                display: none;
-            }
-        
+        #imgYo {
+            height: 500px;
+            width: 300px;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        #factYo {
+            display: none;
         }
     }
-        
+}       
     /* Fin estilos media para quiensoy.html */
 
-    @media (max-width: 576px) {
-        main {
-          margin: 7px;
-        .text{
-            #titleYo {
-                font-size: 28px;
+        @media (max-width: 576px) {
+            main {
+                margin: 7px;
+            .text{
+                #titleYo {
+                    font-size: 28px;
             }
-
-            #subTitleYo {
-                font-size: 20px;
+                #subTitleYo {
+                    font-size: 20px;
             }
-
-          p {
-            font-size: 14px; 
-          }
+                p {
+                    font-size: 14px; 
+            }
         }
-        }
-      }
-      
+    }
+}   

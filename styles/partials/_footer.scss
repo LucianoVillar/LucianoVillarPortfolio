@@ -10,20 +10,17 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: 100px;
-
     .contenido-footer {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         color: $colorDetalles1;
-
         .misRedes {
             font-family: 'Barlow', sans-serif;
             font-size: 16px;
             margin-bottom: 10px;
         }
-
         .iconos {
             display: flex;
             justify-content: center;
@@ -38,13 +35,11 @@ footer {
                 }
             }
         }
-
         .copyright {
             margin-top: 10px;
             font-size: 12px;
         }
     }
-
     a {
         color: $colorDetalles1;
         font-family: 'Barlow', sans-serif;

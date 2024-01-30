@@ -7,20 +7,16 @@
     top: 0;
     height: 70px;
     width: 100%;
-
     .navbar-nav {
         list-style: none;
         padding: 0;
         display: flex;
         justify-content: center; 
-        align-items: center;
-        
+        align-items: center;    
     }
-
     .nav-item {
         margin: 0;
     }
-
     .nav-link {
         color: $colorDetalles1;
         font-family: 'Barlow', sans-serif;
@@ -29,18 +25,14 @@
         padding: 10px 20px;
         border-radius: 5px;
         transition: background-color 0.3s ease-in-out;
-
         &:hover {
             background-color: rgba(255, 255, 255, 0.2);
         }
-
         &.active {
             font-weight: bold;
             color: $colorSecundario;
         }
-
     }
-
     /* Estilos para pantalla con ancho máximo de 991px */
     @media (max-width: 991px) {
         height: auto;
@@ -53,4 +45,3 @@
             }
         }
     }
-
